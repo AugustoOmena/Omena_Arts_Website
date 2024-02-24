@@ -1,0 +1,23 @@
+:root {
+    --largura-padrao: 1460px; /* Variável para a largura padrão do site */
+    --cor-primaria: #3498db; /* Variável para a cor primária */
+    --cor-secundaria: #2ecc71; /* Variável para a cor secundária */
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--largura-padrao);
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 400px;
+    margin: 10px;
+}
