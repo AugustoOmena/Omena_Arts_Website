@@ -2,7 +2,7 @@
     --largura-padrao: 1460px;
     --cor-primaria: #3498db;
     --cor-secundaria: #2ecc71;
-    --cor-do-texto: black;
+    --cor-do-texto: rgb(253, 253, 253);
 }
 
 /* Estilos Gerais */
