@@ -29,6 +29,14 @@ img {
     background: var(--cor-primaria);
 }
 
+/* imagem fundo */
+.imagemFundo {
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
 /* Estilo para o cabeçalho */
 .header {
     padding: 15px;
@@ -74,6 +82,10 @@ img {
     .options li {
         margin: 10px 0;
     }
+
+    .imagemFundo {
+        max-height: 450px;
+    }
 }
 
 /* Flexbox */
@@ -109,18 +121,47 @@ img {
     width: 100%;
     color: #fff;
     margin: 0;
-    padding: 17px;
+    padding-bottom: 17px;
+    padding-left: 17px;
     transform: translateY(0);
     transition: transform 0.3s, text-decoration 0.3s;
     text-decoration: underline transparent;
     font-size: 1em;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .item:hover p {
     transform: translateY(-10px);
     text-decoration: underline #fff;
 }
+
+
+/* imagem eu pintando */
+.maisEscuro {
+    position: absolute; 
+    top: 0; left: 0;
+     width: 100%; 
+     height: 100%; 
+     background: rgba(0, 0, 0, 0.5);
+  }
+
+.posicaoTexto {
+    position: absolute; 
+    bottom: 0; left: 0; 
+    width: 100%; 
+    padding-left: 20px; 
+    padding-bottom: 20px;
+}
+
+.botaoTransparente {
+    margin-top: 10px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
     .item p {
@@ -137,3 +178,4 @@ img {
         font-size: 18px;
     }
 }
+
