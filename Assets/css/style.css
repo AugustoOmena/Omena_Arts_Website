@@ -29,6 +29,10 @@ img {
     background: var(--cor-primaria);
 }
 
+.ajusteLargura {
+    margin-left: 3rem;
+}
+
 /* imagem fundo */
 .imagemFundo {
     width: 100%;
@@ -224,12 +228,13 @@ p {
     .col {
         width: 100%;
     }
-}
 
-
-@media (max-width: 768px) {
     .item p {
         font-size: 14px;
+    }
+
+    .ajusteLargura {
+        margin-left: 1rem;
     }
 }
 
