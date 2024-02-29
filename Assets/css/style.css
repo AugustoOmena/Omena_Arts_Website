@@ -33,6 +33,10 @@ img {
     margin-left: 3rem;
 }
 
+.centro {
+    align-items: center;
+}
+
 /* imagem fundo */
 .imagemFundo {
     width: 100%;
